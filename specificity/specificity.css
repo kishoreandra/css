@@ -1,0 +1,33 @@
+.p-class {
+  font-family: "Times New Roman", Times, serif;
+  color: aqua;
+}
+
+#h1-id {
+  color: blueviolet;
+}
+
+h1 {
+  color: burlywood;
+}
+
+p {
+  color: cornflowerblue;
+}
+
+div#test span {
+  color: green;
+}
+div span {
+  color: blue;
+}
+span {
+  color: red;
+}
+
+#test#test span {
+  color: yellow;
+}
+.myClass.myClass span {
+  color: orange;
+}

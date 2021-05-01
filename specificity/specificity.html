@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <link rel="stylesheet" href="specificity.css">
+</head>
+<body>
+    <section>
+        <h1 id="h1-id">This is an id selector</h1>
+    </section>
+    <section class="p-class">
+        <p>this is a paragraph</p>
+    </section>
+
+    <!-- 
+
+        The cascade, and the closely-related concept of specificity, are mechanisms that control 
+        which rule applies when there is such a conflict. Which rule is styling your element 
+        may not be the one you expect, so you need to understand how these mechanisms work.
+
+        
+        https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+
+        Reference for Specificity
+
+
+        The following list of selector types increases by specificity:
+
+        Type selectors (e.g., h1) and pseudo-elements (e.g., ::before).
+        Class selectors (e.g., .example), attributes selectors (e.g., [type="radio"]) 
+                                                    and pseudo-classes (e.g., :hover).
+        ID selectors (e.g., #example).
+    -->
+
+
+    <div>
+        <div id="test">
+            <span>Text</span>
+          </div>
+    </div>
+</body>
+</html>
