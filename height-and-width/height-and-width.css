@@ -2,26 +2,29 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  /* content + padding + border */
 }
 
 body {
-  height: 100%;
+  height: 20%;
   /* no change since it takes the content/elements height so its parent need to 
   set height which is html */
 }
 .box1 {
   border: 2px solid seagreen;
   padding: 5px;
-  width: 50%;
-  height: 50%; /* No effect until we set the height to the parent 
+  width: 100%;
+  background-color: aqua;
+
+  height: 200px; /* No effect until we set the height to the parent 
   which is body (the height is its content/elements height took place) and its parent -> html  */
 }
 
 .box2 {
   border: 1.5px dashed sienna;
   padding: inherit;
-  width: inherit;
+  width: 50%;
   height: 30%;
   /* inherit from parent that is box1 */
 }
